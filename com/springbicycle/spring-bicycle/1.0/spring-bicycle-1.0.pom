@@ -11,7 +11,6 @@
 
     <properties>
         <jdk.version>1.8</jdk.version>
-        <hikaricp.version>2.4.7</hikaricp.version>
         <jackson.version>2.7.4</jackson.version>
         <javax-servlet.version>3.1.0</javax-servlet.version>
         <slf4j.version>1.7.21</slf4j.version>
@@ -94,11 +93,6 @@
         </dependency>
 
         <!-- Connections pool -->
-        <dependency>
-            <groupId>com.zaxxer</groupId>
-            <artifactId>HikariCP</artifactId>
-            <version>${hikaricp.version}</version>
-        </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
