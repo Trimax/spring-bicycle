@@ -1,0 +1,18 @@
+# Git ignore file
+
+# Logs #
+*.log
+
+# Process ID file #
+*.pid
+
+# IntelliJ IDEA #
+.idea
+.ideaDataSources
+*.iws
+*.iml
+*.ipr
+*.ids
+
+# Output directory #
+target
